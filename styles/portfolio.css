@@ -1,0 +1,91 @@
+.text{
+    color: #FD6E0A;
+}
+.bg{
+    background: #FFF8F3;
+    background-image:url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+/*navigretion */
+.nav-title{
+    width: 800;
+    font-size: 35px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+nav li{
+list-style: none;
+margin: 50px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn-pri{
+    height: 50px;
+    background-color: #FD6E0A;
+    Width:80px;
+    font-size: 10px;
+    font-weight: 700;
+    color:#FFFFFF;
+
+}
+/* banner styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+  
+}
+.banner-title{
+    Weight:700;
+   font-size: 85px;
+   margin-bottom: 5px;
+    
+}   
+.banner-sub-title{
+    font-weight: 600;
+font-size: 45px;
+margin-bottom: 5px;
+}
+.banner-p{
+    font-size: 18px;
+}
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section style */
+.about{
+margin-top: 130px;
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-title{
+text-align: center;
+margin-bottom: 30px;
+}
+.section-des{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+
+}
+.about-info-contenar{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+color: #757575;
+}
+.des{
+    font-weight: 400;
+    font-size: 20px;
+}
